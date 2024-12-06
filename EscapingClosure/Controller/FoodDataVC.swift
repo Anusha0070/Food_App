@@ -58,9 +58,9 @@ extension FoodDataVC: UITableViewDataSource{
     //MARK: - Helper method to configure the cell
     func configureCell(_ cell: FoodTableViewCell, at indexPath: IndexPath) {
         guard let food = getFoodItem(at: indexPath) else { return }
-        cell.name.text = "Name: \(food.name)"
+        cell.name.text = "\(food.name)"
         cell.foodDescription.text = "Description: \(food.description)"
-        cell.foodPrice.text = "Price: \(food.price)"
+        cell.foodPrice.text = "Price: $\(food.price)"
     }
     
     //MARK: - Helper function to get the food item at a specific index path

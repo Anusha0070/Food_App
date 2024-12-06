@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		47C641FF2D03B753002413CC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 47C641FE2D03B74C002413CC /* README.md */; };
+		47C6422F2D03B7B7002413CC /* foodApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C6422E2D03B7B7002413CC /* foodApp.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		47162D3F2CFE5A7200023A0B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		47162D282CFE5A7000023A0B /* EscapingClosure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EscapingClosure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47162D3E2CFE5A7200023A0B /* EscapingClosureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscapingClosureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47162D482CFE5A7200023A0B /* EscapingClosureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscapingClosureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C641FE2D03B74C002413CC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		47C6422E2D03B7B7002413CC /* foodApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodApp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +95,8 @@
 		47162D1F2CFE5A7000023A0B = {
 			isa = PBXGroup;
 			children = (
+				47C641FE2D03B74C002413CC /* README.md */,
+				47C6422E2D03B7B7002413CC /* foodApp.png */,
 				47162D2A2CFE5A7000023A0B /* EscapingClosure */,
 				47162D412CFE5A7200023A0B /* EscapingClosureTests */,
 				47162D4B2CFE5A7200023A0B /* EscapingClosureUITests */,
@@ -225,6 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C6422F2D03B7B7002413CC /* foodApp.png in Resources */,
+				47C641FF2D03B753002413CC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
