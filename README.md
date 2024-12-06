@@ -1,9 +1,4 @@
-//
-//  README.md
-//  EscapingClosure
-//
-//  Created by Anusha Raju on 12/6/24.
-//
+
 # 🍕 FoodApp – Your Ultimate Menu Explorer 🍝
 
 FoodApp is a beautifully designed iOS application showcasing a variety of delicious food items. Built with **Swift**, this app efficiently retrieves data from an API, processes it, and displays it in an interactive table view.
