@@ -50,16 +50,24 @@ extension FoodDataVC: UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FoodCell", for: indexPath) as! FoodTableViewCell
-        
-        let foodList = foodData?[indexPath.section].food_items
-        
-        if indexPath.row < foodList!.count {
-            let food = foodList![indexPath.row]
-            cell.name.text = "Name: \(food.name)"
-            cell.foodDescription.text = "Description: \(food.description)"
-            cell.foodPrice.text = "Price: \(food.price)"
-        }
+
+        configureCell(cell, at: indexPath)
         return cell
+    }
+    
+    //MARK: - Helper method to configure the cell
+    func configureCell(_ cell: FoodTableViewCell, at indexPath: IndexPath) {
+        guard let food = getFoodItem(at: indexPath) else { return }
+        cell.name.text = "Name: \(food.name)"
+        cell.foodDescription.text = "Description: \(food.description)"
+        cell.foodPrice.text = "Price: \(food.price)"
+    }
+    
+    //MARK: - Helper function to get the food item at a specific index path
+    func getFoodItem(at indexPath: IndexPath) -> FoodItem? {
+        guard let foodList = foodData?[indexPath.section].food_items else { return nil }
+        guard indexPath.row < foodList.count else { return nil }
+        return foodList[indexPath.row]
     }
 }
 
