@@ -6,9 +6,10 @@
 //
 //Singleton Network Layer
 import Foundation
+import UIKit
 
 protocol NetworkProtocol {
-    func getData(from url: String, completion: @escaping (FoodData) -> Void)
+    func getData<T: Decodable>(from url: String, completion: @escaping (T) -> Void)
 }
 
 class Network: NetworkProtocol {
@@ -16,13 +17,12 @@ class Network: NetworkProtocol {
     private init() { }
     
     //MARK: - Get data from the URL
-    func getData(from url: String, completion: @escaping (FoodData) -> Void) {
+    func getData<T: Decodable>(from url: String, completion: @escaping (T) -> Void) {
         guard let serverUrl =  URL(string: url) else {
             print("getData: Invalid URL")
             return
         }
         
-        //MARK: - Fetch data from server by passing URL object
         URLSession.shared.dataTask(with: URLRequest(url: serverUrl), completionHandler: { data, response, error in
             
             guard let data, error == nil else {
@@ -31,7 +31,7 @@ class Network: NetworkProtocol {
             print("sucessfully fetched data!!")
             
             do {
-                let receivedData = try JSONDecoder().decode(FoodData.self, from: data)
+                let receivedData = try JSONDecoder().decode(T.self, from: data)
                 completion(receivedData)
             } catch {
                 print("Unable to decode json data to the Food structure \(error)")

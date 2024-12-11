@@ -1,20 +1,17 @@
 //
-//  FoodTableViewCell.swift
+//  MyCustomCell.swift
 //  EscapingClosure
 //
-//  Created by Anusha Raju on 12/2/24.
+//  Created by Anusha Raju on 12/8/24.
 //
 
 import UIKit
 
-class FoodTableViewCell: UITableViewCell {
+class MyCustomCell: UITableViewCell {
 
-    @IBOutlet weak var name: UILabel!
-    @IBOutlet weak var foodDescription: UILabel!
-    @IBOutlet weak var foodPrice: UILabel!
-    
-    @IBOutlet weak var itemImg: UIImageView!
-    
+    @IBOutlet weak var foodImg: UIImageView!
+    @IBOutlet weak var foodName: UILabel!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
