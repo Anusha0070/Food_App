@@ -1,3 +1,4 @@
+
 # 🍕 FoodApp – Your Ultimate Menu Explorer 🍝
 
 FoodApp is a beautifully designed iOS application showcasing a variety of delicious food items. Built with **Swift**, this app efficiently retrieves data from an API, processes it, and displays it in an interactive table view.
@@ -44,10 +45,3 @@ FoodApp is a beautifully designed iOS application showcasing a variety of delici
    Provides users with detailed information about each food item.
 
 ---
-
-## 🏗️ Setup and Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Anusha0070/foodapp.git
-
