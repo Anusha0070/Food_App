@@ -1,5 +1,5 @@
 
-# 🍕 FoodApp – Your Ultimate Menu Explorer 🍝
+# 🥪 FoodApp – Your Ultimate Menu Explorer
 
 FoodApp is a beautifully designed iOS application showcasing a variety of delicious food items. Built with **Swift**, this app efficiently retrieves data from an API, processes it, and displays it in an interactive table view.
 
@@ -7,8 +7,17 @@ FoodApp is a beautifully designed iOS application showcasing a variety of delici
 
 ## 🖼️ App Screenshot
 
-<img src="foodApp.png" alt="Welcome Screen" width="260">
+### Food Home Page
 
+<img src="foodApp1.png" alt="Home Screen" width="260">
+
+### 🍕 Pizza Food Page
+
+<img src="pizza.png" alt="Pizza Food Screen" width="260">
+
+### 🍲 Chinese Food Page
+
+<img src="chinese.png" alt="Chinese Food Screen" width="260">
 ---
 
 ## 🚀 Features

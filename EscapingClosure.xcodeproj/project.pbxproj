@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47B5159F2D093D8D0001E3DE /* foodApp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B5159D2D093D8D0001E3DE /* foodApp1.png */; };
+		47B515A02D093D8D0001E3DE /* chinese.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B5159C2D093D8D0001E3DE /* chinese.png */; };
+		47B515A12D093D8D0001E3DE /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B5159E2D093D8D0001E3DE /* pizza.png */; };
 		47C641FF2D03B753002413CC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 47C641FE2D03B74C002413CC /* README.md */; };
 		47C6422F2D03B7B7002413CC /* foodApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C6422E2D03B7B7002413CC /* foodApp.png */; };
 /* End PBXBuildFile section */
@@ -32,6 +35,9 @@
 		47162D282CFE5A7000023A0B /* EscapingClosure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EscapingClosure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47162D3E2CFE5A7200023A0B /* EscapingClosureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscapingClosureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47162D482CFE5A7200023A0B /* EscapingClosureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscapingClosureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B5159C2D093D8D0001E3DE /* chinese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chinese.png; sourceTree = "<group>"; };
+		47B5159D2D093D8D0001E3DE /* foodApp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodApp1.png; sourceTree = "<group>"; };
+		47B5159E2D093D8D0001E3DE /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
 		47C641FE2D03B74C002413CC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		47C6422E2D03B7B7002413CC /* foodApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodApp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				47C641FE2D03B74C002413CC /* README.md */,
+				47B5159E2D093D8D0001E3DE /* pizza.png */,
+				47B5159C2D093D8D0001E3DE /* chinese.png */,
+				47B5159D2D093D8D0001E3DE /* foodApp1.png */,
 				47C6422E2D03B7B7002413CC /* foodApp.png */,
 				47162D2A2CFE5A7000023A0B /* EscapingClosure */,
 				47162D412CFE5A7200023A0B /* EscapingClosureTests */,
@@ -235,6 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				47C6422F2D03B7B7002413CC /* foodApp.png in Resources */,
+				47B5159F2D093D8D0001E3DE /* foodApp1.png in Resources */,
+				47B515A02D093D8D0001E3DE /* chinese.png in Resources */,
+				47B515A12D093D8D0001E3DE /* pizza.png in Resources */,
 				47C641FF2D03B753002413CC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
